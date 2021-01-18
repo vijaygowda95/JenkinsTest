@@ -6,7 +6,7 @@ public class FindFactorial {
   int factorial = number;
 
   for (int i = (number - 1); i & gt; 1; i--) {
-   factorial = factorial * i;
+   factorial = factorial * i ;
   }
 
   System.out.println("Factorial of " + number + " is " + factorial);
